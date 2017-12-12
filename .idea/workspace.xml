@@ -334,6 +334,9 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="d6eb6730-d884-49cd-8da2-00e5dfbe92b6" name="Default" comment="" />
@@ -343,12 +346,12 @@
       <updated>1513083621221</updated>
       <workItem from="1513083625031" duration="1412000" />
       <workItem from="1513085462974" duration="1486000" />
-      <workItem from="1513087276456" duration="1337000" />
+      <workItem from="1513087276456" duration="1678000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4235000" />
+    <option name="totallyTimeSpent" value="4576000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="451" y="52" width="973" height="522" extended-state="0" />

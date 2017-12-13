@@ -47,3 +47,14 @@
 
 
 <%= link_to 'Report to csv', products_path(format: "csv"), class:'btn btn-primary', type:'button' %>
+
+
+
+</br>
+</br>
+
+<h4>Upload Products</h4>
+<%= form_tag import_products_path, multipart: true do %>
+    <%= file_field_tag :file %>
+    <%= submit_tag 'Upload Products' %>
+<% end %>

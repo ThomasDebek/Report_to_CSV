@@ -1,5 +1,17 @@
 class Product < ApplicationRecord
 
+
+  validates :title, :description, :price, presence: true
+  validates :title, uniqueness: true
+  validates :price, numericality: { greater_than_or_equal_to: 0.01 }
+
+
+
+
+
+
+
+
   def self.import(file)
     CSV.foreach(file.path, headers: true) do |row|
       Product.create! row.to_hash

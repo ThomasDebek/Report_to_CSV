@@ -68,8 +68,12 @@ class ProductsController < ApplicationController
 
 
   def import
+    begin
     Product.import(params[:file])
     redirect_to products_path, notice: "Products Added Successfully"
+    rescue
+      redirect_to products_path, notice: "Invalid CSV file format"
+    end
   end
 
   private
